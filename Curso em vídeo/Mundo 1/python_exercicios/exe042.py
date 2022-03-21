@@ -3,6 +3,8 @@
 – ISÓSCELES: dois lados iguais, um diferente
 – ESCALENO: todos os lados diferentes'''
 
+# Analisando triângulos e dizendo quais seus tipos
+
 print('-=' * 20)
 print('Analisador de triângulos')
 print('-=' * 20)
