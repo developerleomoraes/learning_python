@@ -9,6 +9,7 @@ nota_2 = float(input('Segunda nota: '))
 média  = (nota_1 + nota_2) / 2
 print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota_1, nota_2, média))
 
+# Imprimindo o resultado com uma estrutura aninhada
 if média >= 5 and média <7:
     print('O aluno está em RECUPERAÇÃO!')
 elif média < 5:
