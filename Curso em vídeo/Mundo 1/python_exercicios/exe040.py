@@ -3,6 +3,7 @@
 – Média entre 5.0 e 6.9: RECUPERAÇÃO
 – Média 7.0 ou superior: APROVADO'''
 
+# Média dos alunos
 nota_1 = float(input('Primeira nota: '))
 nota_2 = float(input('Segunda nota: '))
 média  = (nota_1 + nota_2) / 2
