@@ -9,6 +9,7 @@ print('-=' * 20)
 print('Analisador de triângulos')
 print('-=' * 20)
 
+# Inserindo os lados do triângulo
 r1 = float(input('Primeiro segmento: '))
 r2 = float(input('Segundo segmento: '))
 r3 = float(input("Terceiro segmento: "))
