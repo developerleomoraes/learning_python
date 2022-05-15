@@ -18,16 +18,13 @@ for c in range(0, 5):
 
 print('-' * 30)
 print(f'Você digitou os valores {valores}')
-
-
-# Minha resolução
-# Criando uma lista que recebe 5 valores do usuário
-'''valores = [float(input('Digite um valor: ')),
-           float(input('Digite um valor: ')),
-           float(input('Digite um valor: ')),
-           float(input('Digite um valor: ')),
-           float(input('Digite um valor: ')),]'''
-
-# Printando o maior e meno valor usando as funções max e min
-'''print(f'\nO maior valor encontrado foi {max(valores)}')
-print(f'O menor valor encontrado foi {min(valores)}')'''
+print(f'O maior valor digitado foi {maior} nas posições ', end='')
+for i, v in enumerate(valores):
+    if v == maior:
+        print(f'{i}...', end='')
+print() 
+print(f'O menor valor digitado foi {menor} nas posições ', end='')
+for i, v in enumerate(valores):
+    if v == menor:
+        print(f'{i}...', end='')
+print()
