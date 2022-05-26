@@ -15,7 +15,7 @@ while True:
     if resposta in 'N':
         break
     
-#for valor in valores_total:
+
 for indice, valor in enumerate(valores_total):
     if valor %2 == 0:
         pares.append(valor)
@@ -26,5 +26,5 @@ for indice, valor in enumerate(valores_total):
       
         
 print(f'Os valores totais digitados foram {valores_total}!')
-print(f'Os valores ímpares foram {pares}!')
+print(f'Os valores pares foram {pares}!')
 print(f'Os valores ímpares foram {ímpares}!')
